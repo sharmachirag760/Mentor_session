@@ -10,3 +10,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended : true}));
 app.use(cookieParser);
 app.use(config.PREFIX,routes);
+
+
+module.exports = app;
